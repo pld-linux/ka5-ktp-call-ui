@@ -39,6 +39,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 ktp-call-ui is interacting with telepathy and farstream.
 
+%description -l pl.UTF-8
+ktp-call-ui komunikuje się z telepathy i farstream.
+
 %prep
 %setup -q -n %{kaname}-%{version}
 
