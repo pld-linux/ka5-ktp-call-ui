@@ -31,6 +31,7 @@ BuildRequires:	kf5-kxmlgui-devel >= %{kframever}
 BuildRequires:	ninja
 BuildRequires:	phonon-qt5-devel
 BuildRequires:	qt5-build >= %{qtver}
+# BR: qt5-gstreamer is a temporary solution until qt-gstreamer package is fixed
 BuildRequires:	qt5-gstreamer
 BuildRequires:	qt5-gstreamer-devel
 BuildRequires:	rpmbuild(macros) >= 1.164
